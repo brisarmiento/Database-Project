@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <title>citycentral.com</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+    <body>
+        <ul>
+            <li><a class="active" href="homepage.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li style="float:right"><a class="active" href="scripts/logout.php">Log Out</a></li>
+            <li style="float:right"><a class="active" href="./product_pages/scripts/mycart.php">My Cart</a></li>
+            <li style="float:right"><a class="active" href="account.php">My Account</a></li>
+            <form action="search_apparel.php" method="post">
+            <li style="float:right; display: relative; padding-top: 12px; padding-right: 10px;">
+                <input name="searchterm" type="text" size="20">
+                <input type="submit" name="submit" value="Search">
+            </li>
+            </form>
+        </ul>
+            <style>
+                body{
+                    font-size:24px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+                a{
+                    text-decoration;
+                    color:grey;
+                }
+                a:hover{
+                    text-decoration;
+                    color: #953636;
+                    transition:1s;
+                }
+                button{
+                    dont-size:16px;
+                }
+                .phpcode{
+                    padding:12px;
+                    }
+            </style>
+        <div class="hero-wrapper">
+            <div class="hero-wrapper-squared">
+                <h1>CityCentral</h1>
+            </div>
+        </div>
+            <nav class="product-filter" id="apparel">
+                <h1><center>Apparel</center></h1>
+            </nav>
+    <hr> 
+
+        <section class="products" id="product-page">
+
+            <div class="product-card">
+                <a href="apparel/apparel.html" style="text-decoration:none; color:black;">
+                    <div class="product-image">
+                        <img src="./assets/jackets/Tuscon.png" alt="Jackets" style="width:450px; height:425px;">          
+                    </div>
+                    <div class="product-info">
+                        <h5><center>All Apparel</center></h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="apparel/t-shirts.html" style="text-decoration:none; color:black;">
+                    <div class="product-image">
+                        <img src="./assets/tshirts/Miami.png" alt="T-shirts" style="width:450px; height:425px;">          
+                    </div>
+                    <div class="product-info">
+                        <h5><center>T-shirts</center></h5>
+                    </div>
+                </a>
+            </div>
+            <div class="product-card">
+                <a href="apparel/long-sleevedshirts.html" style="text-decoration:none; color:black;">
+                    <div class="product-image">
+                        <img src="./assets/long-sleevedshirts/Dallas.png" alt="Long-sleeved Shirts" style="width:450px; height:425px;">              
+                    </div>
+                    <div class="product-info">
+                        <h5><center>Long-sleeved Shirts</center></h5>
+                    </div>
+                </a>
+            </div>        
+            
+            <div class="product-card">
+                <a href="apparel/crewnecks.html" style="text-decoration:none; color:black;">
+                    <div class="product-image">
+                        <img src="./assets/crewnecks/Seattle.png" alt="Crewnecks" style="width:450px; height:425px;">              
+                    </div>
+                    <div class="product-info">
+                        <h5><center>Crewnecks</center></h5>
+                    </div>
+                </a>
+            </div>
+                    <div class="product-card">
+                <a href="apparel/hoodies.html" style="text-decoration:none; color:black;">
+                    <div class="product-image">
+                        <img src="./assets/hoodies/SaltLakeCity.png" alt="Hoodies" style="width:450px; height:425px;">              
+                    </div>
+                    <div class="product-info">
+                        <h5><center>Hoodies</center></h5>
+                    </div>
+                </a>
+            </div>
+                    <div class="product-card">
+                <a href="/~sarmieb1/citycentral/apparel/jackets.html" style="text-decoration:none; color:black;">
+                    <div class="product-image">
+                        <img src="./assets/jackets/OklahomaCity.png" alt="Jackets" style="width:450px; height:425px;">              
+                    </div>
+                    <div class="product-info">
+                        <h5><center>Jackets</center></h5>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </body>
+</html>
